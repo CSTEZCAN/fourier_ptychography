@@ -1,112 +1,116 @@
-# 🔬 Microscope OLED Pattern Controller & Ptychography Suite
+# 🔬 Mobile-OLED Fourier Ptychography & DPC Microscopy Suite
 
-A hybrid **PyQt5 desktop application**, **Flask + Socket.IO web server**, and **Differential Phase Contrast (DPC) 3D reconstruction engine** designed to control real-time, custom illumination patterns on external displays (e.g., a smartphone used as a programmable microscope OLED light source) and process the resulting microscopy data.
+An open-source hardware-software framework that converts a smartphone/tablet display into a dynamic, programmable OLED illumination array for computational phase imaging, Differential Phase Contrast (DPC), and Fourier Ptychography (FP) microscopy[cite: 25, 26].
 
----
-
-## 🌟 Key Features
-
-### 🖥️ Display & Illumination Engine
-
-* **Real-Time Web Canvas**: Serves a full-screen, ultra-low latency HTML5 Canvas over WebSockets to render light patterns dynamically on connected mobile devices.
+This repository provides an end-to-end pipeline—from hardware control and acquisition scripts on Raspberry Pi to automated video clustering, Frankot-Chellappa phase integration, and interactive 3D web visualizations[cite: 24, 25, 26].
 
 
-* **Multiple Pattern Modes**:
-* **Full Screen**: Uniform illumination across the entire target display.
+## ✨ Features
 
+### 🖥️ Display Control & Illumination Engine (`run1st_pc2phone_colorserver-Grid_Ptychography.py`)
+- **PyQt5 Desktop Control GUI**: Complete manual and automated control over pattern geometry, grid spacing, spot sizing, offsets, and wavelengths[cite: 25].
+- **WebSocket Web Canvas Interface**: Low-latency, full-screen HTML5 rendering engine running over Flask & Socket.IO[cite: 25].
+- **Custom LED Geometries**: Supports Circle, Square, Triangle, and Hollow Ring (Darkfield) aperture geometries[cite: 25].
+- **Automated Sequencer with Blanking**: Step-by-step LED pattern scanning with configurable settling delays (`on_delay`) and off-state blanking phases (`off_delay`) to clear sensor buffer lag[cite: 25].
+- **Physical Calibration**: Real-time conversion between screen pixel dimensions and physical metrics ($\text{mm/px}$)[cite: 25].
 
-* **Single Spot / Pixel**: Precise, single target light source with custom spatial offset coordinates.
+### 🎥 Low-Light Camera Acquisition (`additional_tools/`)
+- **Extreme Long-Exposure Script (`capture.sh`)**: High-gain, 1 FPS capture script utilizing 1-second ($1,000,000\,\mu\text{s}$) open shutter times, $12.0\times$ analog gain, zeroed chroma (`-cfx 128:128`), and fixed AWB for low-light raw H.264 capture[cite: 24].
+- **Automated Logging & Storage Management**: Prevents storage overflow by maintaining a strict disk quota (e.g., 1 GB) using rolling file deletion[cite: 24].
+- **Video Conversion Helper (`h264tomp4.bat`)**: FFmpeg NVENC batch script to convert raw `.h264` video streams to `.mp4`[cite: 25].
 
-
-* **Circular LED Ring**: Multi-point ring arrangement simulating physical LED rings for computational microscopy and circular Ptychography.
-
-
-* **Matrix Grid**: Configurable $M \times N$ matrix grid with customizable horizontal/vertical pitch ($X/Y$ spacing) for grid-based Ptychography.
-
-
-
-
-* **Custom Aperture Geometries**: Toggle spot aperture shapes between **Circle**, **Square**, **Triangle**, and **Hollow Ring** (for Darkfield illumination).
+### 📐 DPC 3D Reconstruction Pipeline (`run2nd_construction4htmlv2.py`)
+- **Automated State Clustering**: Reads video frame streams without skipping and automatically clusters frames into their respective $N \times N$ LED spatial illumination angles[cite: 26].
+- **Intensity Normalization**: Corrects for screen brightness variations across LED positions during frame binning[cite: 26].
+- **2D DPC Phase Gradients**: Calculates directional differential gradients ($DPC_X$ and $DPC_Y$) across top/bottom and left/right LED array hemispheres[cite: 26].
+- **Frankot-Chellappa Integration**: Reconstructs quantitative phase maps using Fourier-space gradient integration with high-pass tilt filtering and reflective boundary padding[cite: 26].
+- **Interactive 3D Surface Export**: Generates standalone interactive 3D HTML surface plots (`3d_reconstruction.html`) powered by Plotly[cite: 26].
 
 
 
-### ⚙️ Desktop Controller & Automation
+## 🛠️ Installation
 
-* **Interactive PyQt5 GUI**: Real-time sliders for $X/Y$ center offset, pitch, ring radius, spot thickness, and RGB color/wavelength selection.
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/CSTEZCAN/fourier_ptychography.git](https://github.com/CSTEZCAN/fourier_ptychography.git)
+   cd fourier_ptychography
 
+```
 
-* **Resolution & Scale Syncing**: Automatically detects client screen dimensions and translates pixel pitch metrics into physical dimensions ($\text{mm/px}$).
+2. **Install Required Python Packages:**
+```bash
+pip install -r requirements.txt
 
-
-* **Automated Flashing Sequencer**: Programmable macro that steps through individual LEDs on the ring or grid sequentially, featuring configurable LED settling delays and off-state blanking intervals.
-
-
-
-### 📐 DPC 3D Reconstruction Pipeline
-
-* **Raw Video/Image Processing**: Automatically extracts frame sequences corresponding to multi-angle illumination patterns.
-
-
-* **Input Contrast Enhancement**: Built-in CLAHE (Contrast Limited Adaptive Histogram Equalization), percentile stretching, and gamma correction pre-processing to eliminate baseline sensor noise floor.
+```
 
 
-* **Phase Integration**: Computes normalized $DPC_x$ and $DPC_y$ gradients, applies reflective padding to eliminate edge collapse artifacts, and flattens background variation via Gaussian filtering.
-
-
-* **Interactive 3D Surface Mesh**: Embedded Matplotlib 3D viewer featuring interactive sliders for Z-amplification, mesh subsampling, denoising sigma, window clipping, and colormap selection.
-
+*(For reconstruction scripts, ensure OpenCV, SciPy, NumPy, and Plotly are also installed)*
 
 
 ---
 
-## 📦 Requirements
+## 🚀 Step-by-Step Workflow
+
+### Step 1: Launch the OLED Display Controller
+
+Run the pattern controller server on your primary PC:
+
+```bash
+python run1st_pc2phone_colorserver-Grid_Ptychography.py
+
+```
+
+1. Open the indicated HTTP URL (e.g., `http://<YOUR_PC_IP>:5000`) on your mobile device (OLED smartphone/tablet).
+
+
+2. Align the smartphone under the objective lens as the primary light source.
+
+
+3. Adjust the grid rows/cols, aperture shape, and color from the PyQt5 desktop GUI.
+
+
+
+### Step 2: Acquire Multi-Angle Datasets (Raspberry Pi)
+
+On your camera-equipped Raspberry Pi:
+
+```bash
+chmod +x additional_tools/capture.sh
+./additional_tools/capture.sh
+
+```
+
+Convert the resulting H.264 video file into MP4 using `ffmpeg` or `additional_tools/h264tomp4.bat`.
+
+### Step 3: Run 3D Phase Reconstruction
+
+Update the video path inside `run2nd_construction4htmlv2.py` and run:
+
+```bash
+python run2nd_construction4htmlv2.py
+
+```
+
+The script will process the video, cluster frame states, integrate phase gradients, and automatically open `3d_reconstruction.html` in your web browser.
+
+---
+
+## 📁 Repository Structure
 
 ```text
-PyQt5
-Flask
-Flask-SocketIO
-python-socketio
-python-engineio
-opencv-python
-numpy
-scipy
-matplotlib
-
-```
-
----
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-
-```bash
-pip install PyQt5 Flask Flask-SocketIO python-socketio python-engineio opencv-python numpy scipy matplotlib
-
-```
-
-### 2. Run Circular Ptychography Server
-
-```bash
-python pc2phone_colorserver-Circular_Ptychography.py
-
-```
-
-### 3. Run Grid Ptychography Server
-
-```bash
-python pc2phone_colorserver-Grid_Ptychography.py
-
-```
-
-### 4. Connect Mobile Device
-
-Navigate to `http://<YOUR_PC_IP>:5000` on your smartphone browser to connect it as an external OLED illumination source.
-
-### 5. Run DPC 3D Reconstruction
-
-```bash
-python reconstruction.py
+.
+├── additional_tools/
+│   ├── camserver.py            # Flask HTTP video stream server for RPi camera[cite: 23, 24]
+│   ├── capture.sh              # Bash script for extreme long-exposure H.264 capture[cite: 24]
+│   ├── h264tomp4.bat           # FFmpeg batch converter for raw camera streams[cite: 25]
+│   └── rpi_camserver.sh        # System startup service wrapper for camserver[cite: 24]
+├── run1st_pc2phone_colorserver-Grid_Ptychography.py  # GUI & Socket.IO server[cite: 25]
+├── run2nd_construction4htmlv2.py                     # DPC processing & 3D Plotly engine[cite: 26]
+├── sample_3d_reconstruction_demo_html.zip             # Sample output HTML files[cite: 27]
+├── videosample_fresnelzoneplate_2026-10-13-11-10-34.mp4 # Sample dataset: Zone Plate
+├── videosample_pollengrain_2026-10-13-17-10-21b.mp4   # Sample dataset: Pollen Grain
+├── requirements.txt            # Core dependencies list[cite: 28]
+└── LICENSE                     # MIT License[cite: 29]
 
 ```
 
@@ -114,4 +118,8 @@ python reconstruction.py
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is open-source and released under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+```
+
+```

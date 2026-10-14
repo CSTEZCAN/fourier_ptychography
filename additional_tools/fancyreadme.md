@@ -110,8 +110,7 @@ http://192.168.1.x:5000
 3. Convert the raw `.h264` file to `.mp4` using GPU-accelerated FFmpeg:
 
 ```bash
-ffmpeg -i 202x-xx-xx-xx-xx-xx.h264 -c:v h264_nvenc 202x-xx-xx-xx-xx-xx.mp4
-
+h264tomp4.bat
 ```
 
 ---

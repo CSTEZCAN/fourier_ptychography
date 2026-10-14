@@ -1,8 +1,24 @@
 # 🔬 Mobile-OLED Fourier Ptychography & DPC Microscopy Suite
 
-An open-source hardware-software framework that converts a smartphone/tablet display into a dynamic, programmable OLED illumination array for computational phase imaging, Differential Phase Contrast (DPC), and Fourier Ptychography (FP) microscopy
+An open-source hardware-software framework that converts a smartphone display into a dynamic, programmable OLED illumination array for computational phase imaging, Differential Phase Contrast (DPC), and Fourier Ptychography (FP) microscopy
 
 This repository provides an end-to-end pipeline—from hardware control and acquisition scripts on Raspberry Pi to automated video clustering, Frankot-Chellappa phase integration, and interactive 3D web visualizations
+
+### PC Server Demo of using OLED as light source for fourier ptychography (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/USzi0stUIRU/0.jpg)](http://www.youtube.com/watch?v=USzi0stUIRU " PC Server Demo of using OLED as light source for fourier ptychography ")
+
+### Repurposing Cracked Screen Galaxy S10 for Ptychography Light Source (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/12SVKarnK3o/0.jpg)](http://www.youtube.com/watch?v=12SVKarnK3o " Repurposing Cracked Screen Galaxy S10 for Ptychography Light Source ")
+
+### videosample pollengrain 2026 10 13 17 10 21b (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/1tK447fYKqI/0.jpg)](http://www.youtube.com/watch?v=1tK447fYKqI " videosample pollengrain 2026 10 13 17 10 21b ")
+
+### videosample fresnelzoneplate 2026 10 13 11 10 34 (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/V9b4FgiHLlA/0.jpg)](http://www.youtube.com/watch?v=V9b4FgiHLlA " videosample fresnelzoneplate 2026 10 13 11 10 34 ")
+
+### 3D Reconstruction of the Fresnel Zone Plate (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/OYcoacdYIvk/0.jpg)](http://www.youtube.com/watch?v=OYcoacdYIvk " 3D Reconstruction of the Fresnel Zone Plate ")
+
 
 
 ## ✨ Features
@@ -115,6 +131,8 @@ The script will process the video, cluster frame states, integrate phase gradien
 ```
 
 ---
+
+
 
 ## 📄 License
 

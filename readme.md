@@ -130,14 +130,6 @@ The script will process the video, cluster frame states, integrate phase gradien
 
 ```
 
----
-
-
-
 ## 📄 License
 
 This project is open-source and released under the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```

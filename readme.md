@@ -32,16 +32,16 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/CSTEZCAN/fourier_ptychography.git](https://github.com/CSTEZCAN/fourier_ptychography.git)
+   git clone https://github.com/CSTEZCAN/fourier_ptychography
    cd fourier_ptychography
 
-```
+   ```
 
 2. **Install Required Python Packages:**
-```bash
-pip install -r requirements.txt
-
-```
+   ```bash
+   pip install -r requirements.txt
+   
+   ```
 
 
 *(For reconstruction scripts, ensure OpenCV, SciPy, NumPy, and Plotly are also installed)*

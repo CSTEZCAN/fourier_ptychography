@@ -11,7 +11,7 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/12SVKarnK3o/0.jpg)](http://www.youtube.com/watch?v=12SVKarnK3o " Repurposing Cracked Screen Galaxy S10 for Ptychography Light Source ")
 
 ### software defined illumination aperture for microscope (Youtube)
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/zzCpA4yIwwA/0.jpg)](http://www.youtube.com/watch?v=zzCpA4yIwwA " software defined aperture for microscope ")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zzCpA4yIwwA/0.jpg)](http://www.youtube.com/watch?v=zzCpA4yIwwA " software defined illumination aperture for microscope ")
 
 ### videosample pollengrain 2026 10 13 17 10 21b (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/1tK447fYKqI/0.jpg)](http://www.youtube.com/watch?v=1tK447fYKqI " videosample pollengrain 2026 10 13 17 10 21b ")
@@ -24,6 +24,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 
 ### 3D Reconstruction of the Fresnel Zone Plate (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/OYcoacdYIvk/0.jpg)](http://www.youtube.com/watch?v=OYcoacdYIvk " 3D Reconstruction of the Fresnel Zone Plate ")
+
+### pollen to 3d model 2026 10 15 13 10 47 (getting there) (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/Acq2ZUSOE_Q/0.jpg)](http://www.youtube.com/watch?v=Acq2ZUSOE_Q " pollen to 3d model 2026 10 15 13 10 47 (getting there) ")
 
 
 

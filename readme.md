@@ -13,6 +13,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### videosample pollengrain 2026 10 13 17 10 21b (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/1tK447fYKqI/0.jpg)](http://www.youtube.com/watch?v=1tK447fYKqI " videosample pollengrain 2026 10 13 17 10 21b ")
 
+### videosample pollen pair 2026 10 15 07 10 01 (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/avEC-0w-ZII/0.jpg)](http://www.youtube.com/watch?v=avEC-0w-ZII " videosample pollen pair 2026 10 15 07 10 01 ")
+
 ### videosample fresnelzoneplate 2026 10 13 11 10 34 (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/V9b4FgiHLlA/0.jpg)](http://www.youtube.com/watch?v=V9b4FgiHLlA " videosample fresnelzoneplate 2026 10 13 11 10 34 ")
 

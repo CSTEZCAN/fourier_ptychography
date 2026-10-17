@@ -22,6 +22,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### videosample fresnelzoneplate 2026 10 13 11 10 34 (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/V9b4FgiHLlA/0.jpg)](http://www.youtube.com/watch?v=V9b4FgiHLlA " videosample fresnelzoneplate 2026 10 13 11 10 34 ")
 
+### ıhlamur poleni - linden pollen 2026 10 17 16 56 54 (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ADWIEanQUfo/0.jpg)](http://www.youtube.com/watch?v=ADWIEanQUfo " ıhlamur poleni - linden pollen 2026 10 17 16 56 54 ")
+
 ### 3D Reconstruction of the Fresnel Zone Plate (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/OYcoacdYIvk/0.jpg)](http://www.youtube.com/watch?v=OYcoacdYIvk " 3D Reconstruction of the Fresnel Zone Plate ")
 

@@ -25,6 +25,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### ıhlamur poleni - linden pollen 2026 10 17 16 56 54 (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/ADWIEanQUfo/0.jpg)](http://www.youtube.com/watch?v=ADWIEanQUfo " ıhlamur poleni - linden pollen 2026 10 17 16 56 54 ")
 
+### karacali poleni - christs thorn pollen 2026 10 17 19 45 54 - modelling scan 10x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/n2EZwwXKA38/0.jpg)](http://www.youtube.com/watch?v=n2EZwwXKA38 " karacali poleni - christs thorn pollen 2026 10 17 19 45 54 - modelling scan 10x ")
+
 ### ballıbaba poleni - dead nettle pollen 2026 10 17 17 18 40 (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/UkMpWgYL4ek/0.jpg)](http://www.youtube.com/watch?v=UkMpWgYL4ek " ballıbaba poleni - dead nettle pollen 2026 10 17 17 18 40 ")
 

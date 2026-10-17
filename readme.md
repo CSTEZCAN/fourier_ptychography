@@ -25,6 +25,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### ıhlamur poleni - linden pollen 2026 10 17 16 56 54 (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/ADWIEanQUfo/0.jpg)](http://www.youtube.com/watch?v=ADWIEanQUfo " ıhlamur poleni - linden pollen 2026 10 17 16 56 54 ")
 
+### ballıbaba poleni - dead nettle pollen 2026 10 17 17 18 40 (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/UkMpWgYL4ek/0.jpg)](http://www.youtube.com/watch?v=UkMpWgYL4ek " ballıbaba poleni - dead nettle pollen 2026 10 17 17 18 40 ")
+
 ### 3D Reconstruction of the Fresnel Zone Plate (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/OYcoacdYIvk/0.jpg)](http://www.youtube.com/watch?v=OYcoacdYIvk " 3D Reconstruction of the Fresnel Zone Plate ")
 

@@ -13,6 +13,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### software defined illumination aperture for microscope (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/zzCpA4yIwwA/0.jpg)](http://www.youtube.com/watch?v=zzCpA4yIwwA " software defined illumination aperture for microscope ")
 
+### advanced monitoring tool for raspberry pi hq camera (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/Fd1uIne66lI/0.jpg)](http://www.youtube.com/watch?v=Fd1uIne66lI " advanced monitoring tool for raspberry pi hq camera ")
+
 ### videosample pollengrain 2026 10 13 17 10 21b (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/1tK447fYKqI/0.jpg)](http://www.youtube.com/watch?v=1tK447fYKqI " videosample pollengrain 2026 10 13 17 10 21b ")
 

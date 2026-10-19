@@ -10,6 +10,9 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### Repurposing Cracked Screen Galaxy S10 for Ptychography Light Source (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/12SVKarnK3o/0.jpg)](http://www.youtube.com/watch?v=12SVKarnK3o " Repurposing Cracked Screen Galaxy S10 for Ptychography Light Source ")
 
+### zoom & scientific data functionality (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/057dvC8FUpM/0.jpg)](http://www.youtube.com/watch?v=057dvC8FUpM " zoom & scientific data functionality ")
+
 ### software defined illumination aperture for microscope (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/zzCpA4yIwwA/0.jpg)](http://www.youtube.com/watch?v=zzCpA4yIwwA " software defined illumination aperture for microscope ")
 

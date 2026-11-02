@@ -4,6 +4,16 @@ An open-source hardware-software framework that converts a smartphone display in
 
 This repository provides an end-to-end pipeline—from hardware control and acquisition scripts on Raspberry Pi to automated video clustering, Frankot-Chellappa phase integration, and interactive 3D web visualizations
 
+
+### dark mode with sync zoom (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/eMs1igq7jjc/0.jpg)](http://www.youtube.com/watch?v=eMs1igq7jjc "  dark mode with sync zoom ")
+
+### 7 pollen types (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/QtUrn7WqLC0/0.jpg)](http://www.youtube.com/watch?v=QtUrn7WqLC0 "  7 pollen types ")
+
+###  enhancements to the pollen inspect system  (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/RzNGCskbqeU/0.jpg)](http://www.youtube.com/watch?v=RzNGCskbqeU "  enhancements to the pollen inspect system  ")
+
 ### Building a Fourier Ptychographic Microscope (FPM) with Raspberry Pi & PyTorch (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/b40X5rRXOUs/0.jpg)](http://www.youtube.com/watch?v=b40X5rRXOUs "  Building a Fourier Ptychographic Microscope (FPM) with Raspberry Pi & PyTorch ")
 

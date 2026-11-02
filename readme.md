@@ -4,6 +4,9 @@ An open-source hardware-software framework that converts a smartphone display in
 
 This repository provides an end-to-end pipeline—from hardware control and acquisition scripts on Raspberry Pi to automated video clustering, Frankot-Chellappa phase integration, and interactive 3D web visualizations
 
+### Building a Fourier Ptychographic Microscope (FPM) with Raspberry Pi & PyTorch (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/b40X5rRXOUs/0.jpg)](http://www.youtube.com/watch?v=b40X5rRXOUs "  Building a Fourier Ptychographic Microscope (FPM) with Raspberry Pi & PyTorch ")
+
 ### PC Server Demo of using OLED as light source for fourier ptychography (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/USzi0stUIRU/0.jpg)](http://www.youtube.com/watch?v=USzi0stUIRU " PC Server Demo of using OLED as light source for fourier ptychography ")
 

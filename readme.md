@@ -8,6 +8,29 @@ This repository provides an end-to-end pipeline—from hardware control and acqu
 ### dark mode with sync zoom (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/eMs1igq7jjc/0.jpg)](http://www.youtube.com/watch?v=eMs1igq7jjc "  dark mode with sync zoom ")
 
+
+### 261105 grid 5x5 1080x1080 leica plan 40x watermarked (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/orbyalVxdiI/0.jpg)](http://www.youtube.com/watch?v=orbyalVxdiI " 261105 grid 5x5 1080x1080 leica plan 40x watermarked ")
+
+# 261105005111 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/5SDe1xi15Gw/0.jpg)](http://www.youtube.com/watch?v=5SDe1xi15Gw " 261105005111 leica plan 40x ")
+
+# 261105002251 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/6mQOQYOXiZg/0.jpg)](http://www.youtube.com/watch?v=6mQOQYOXiZg " 261105002251 leica plan 40x ")
+
+# 261105003208 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/4ItXrlSO4C4/0.jpg)](http://www.youtube.com/watch?v=4ItXrlSO4C4 " 261105003208 leica plan 40x ")
+
+# 261104230827 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/7aRmbSanfQE/0.jpg)](http://www.youtube.com/watch?v=7aRmbSanfQE " 261104230827 leica plan 40x ")
+
+# 261104230207 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/hHFu1AdwBbI/0.jpg)](http://www.youtube.com/watch?v=hHFu1AdwBbI " 261104230207 leica plan 40x ")
+
+# 261104214547 leica plan 40x (Youtube)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/VjVFW5jRRxU/0.jpg)](http://www.youtube.com/watch?v=VjVFW5jRRxU " 261104214547 leica plan 40x ")
+
+
 ### 7 pollen types (Youtube)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/QtUrn7WqLC0/0.jpg)](http://www.youtube.com/watch?v=QtUrn7WqLC0 "  7 pollen types ")
 
